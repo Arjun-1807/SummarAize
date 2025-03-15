@@ -1,3 +1,13 @@
+import HeroSection from "@/components/home/HeroSection";
+
 export default function Home() {
-  return <div className="w-full bg-red-500">Home</div>;
+  return (
+    <div className="relative w-full">
+      <HeroSection />
+      {/* <DemoSection /> */}
+      {/* <HowItWorksSection /> */}
+      {/* <PricingSection /> */}
+      {/* <CTAsection /> */}
+    </div>
+  );
 }
